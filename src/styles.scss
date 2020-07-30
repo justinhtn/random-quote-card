@@ -1,0 +1,81 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+
+#text {
+  font-family: sans-serif;
+  font-size: 30px; 
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#quote-box {
+  width: 450px;
+  height: auto;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.1);
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+#marks {
+    opacity: .1;
+    transform: translate(10px, 5px);
+}
+
+#rev-marks {
+  opacity: .1;
+  transform: scaleX(-1) translate(10px, 5px);
+
+
+}
+
+#author {
+  font-size: 15px;
+}
+
+#social-wrapper {
+  align-self: baseline;
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  height: 55px;
+  margin: 25px 0 0 0;
+  
+#tweet-icon-wrapper {
+  background-color: rgb(0, 238, 255);
+  border-radius: 5px;
+  margin: 15px 0 0 0;
+}
+
+#twitter-icon {
+  width: 30px;
+  height:fill;
+  padding: 5px 15px;
+}
+
+#new-quote {
+  background-color: rgb(0, 238, 255);
+  border-width: 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 15px 0 0 0;
+}
+
+}
