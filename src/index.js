@@ -1,21 +1,24 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
-import "./styles.scss";
+import "./styles.css";
+
+import twitter from "/twitter.svg";
+import quotationMarks from "/quotation-marks.svg";
 
 const Card = props => {
   return (
     <div className="wrapper">
       <div className="App" id="quote-box">
         <div id="text">
-          <img id="marks" src="public/quotation-marks.svg" alt="img" />
+          <img id="marks" src={quotationMarks} alt="img" />
           {props.quote}
-          <img id="rev-marks" src="public/quotation-marks.svg" alt="img" />
+          <img id="rev-marks" src={quotationMarks} alt="img" />
         </div>
         <div id="author">{props.author}</div>
         <div id="social-wrapper">
           <div id="tweet-icon-wrapper">
             <a href="https://twitter.com/intent/tweet" id="tweet-quote">
-              <img src="public/twitter.svg" alt="img" id="twitter-icon" />
+              <img src={twitter} alt="img" id="twitter-icon" />
             </a>
           </div>
           <button id="new-quote" onClick={props.fetchQuote}>

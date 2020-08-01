@@ -64,24 +64,24 @@
   width: inherit;
   height: 55px;
   margin: 25px 0 0 0;
+}
 
-  #tweet-icon-wrapper {
-    background-color: rgb(0, 238, 255);
-    border-radius: 5px;
-    margin: 15px 0 0 0;
-  }
+#tweet-icon-wrapper {
+  background-color: rgb(0, 238, 255);
+  border-radius: 5px;
+  margin: 15px 0 0 0;
+}
 
-  #twitter-icon {
-    width: 30px;
-    height: fill;
-    padding: 5px 15px;
-  }
+#twitter-icon {
+  width: 30px;
+  height: fill;
+  padding: 5px 15px;
+}
 
-  #new-quote {
-    background-color: rgb(0, 238, 255);
-    border-width: 0;
-    padding: 10px 15px;
-    border-radius: 5px;
-    margin: 15px 0 0 0;
-  }
+#new-quote {
+  background-color: rgb(0, 238, 255);
+  border-width: 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 15px 0 0 0;
 }
