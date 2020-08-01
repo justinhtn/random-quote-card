@@ -2,8 +2,8 @@ import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 
-import twitter from "/twitter.svg";
-import quotationMarks from "/quotation-marks.svg";
+import twitter from "./twitter.svg";
+import quotationMarks from "./quotation-marks.svg";
 
 const Card = props => {
   return (
